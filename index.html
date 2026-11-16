@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self'; style-src 'self'; base-uri 'none'; form-action 'none'">
+<meta name="referrer" content="no-referrer">
+<meta name="robots" content="noindex">
+<title>TV 인터넷 점검 결과</title>
+<link rel="stylesheet" href="share.css">
+<script src="share.js" defer></script>
+</head>
+<body>
+<main>
+  <h1>TV 인터넷 점검 결과</h1>
+  <p id="message" class="message">결과를 여는 중…</p>
+  <pre id="report" hidden></pre>
+  <div id="actions" class="actions" hidden>
+    <button id="share" type="button" hidden>공유하기</button>
+    <button id="copy" type="button">복사</button>
+  </div>
+  <p id="status" class="status" role="status" aria-live="polite"></p>
+  <p class="note">이 내용은 휴대폰 안에서만 열리며 어디에도 저장되지 않습니다.</p>
+</main>
+</body>
+</html>
